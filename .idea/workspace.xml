@@ -4,41 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b9175e0d-3e52-4791-9832-470e9b41437e" name="Changes" comment="Initial commit.">
-      <change afterPath="$PROJECT_DIR$/src/Logs/diamond_circle.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/controllers/DiamondCircleFormController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/controllers/FirstFormController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/controllers/MovementFigureFormController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/controllers/ResultsFormController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/elements/Diamond.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/elements/Hole.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exceptions/IllegalValueException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/image/SpecialCard.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/image/diamond.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/image/number1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/image/number2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/image/number3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/image/number4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/models/Game.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/models/Player.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/models/cards/Card.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/models/cards/OrdinaryCard.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/models/cards/SpecialCard.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/models/figures/Color.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/models/figures/Figure.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/models/figures/GhostFigure.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/models/figures/HoveringFigure.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/models/figures/OrdinaryFigure.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/models/figures/SuperFastFigure.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/models/map/Field.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/module-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/path/path.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/diamondCircleForm.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/firstForm.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/movementFigureForm.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/resultsForm.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/results/IGRA_16.13.5.txt" afterDir="false" />
-    </list>
+    <list default="true" id="b9175e0d-3e52-4791-9832-470e9b41437e" name="Changes" comment="Initial commit." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -162,7 +128,7 @@
       <workItem from="1663889665212" duration="4179000" />
       <workItem from="1664037090842" duration="98000" />
       <workItem from="1664040620090" duration="4274000" />
-      <workItem from="1684365477034" duration="381000" />
+      <workItem from="1684365477034" duration="821000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit.">
       <created>1684365590177</created>
@@ -171,7 +137,21 @@
       <option name="project" value="LOCAL" />
       <updated>1684365590177</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Initial commit.">
+      <created>1684366154403</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1684366154403</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Initial commit.">
+      <created>1684366246137</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1684366246137</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
