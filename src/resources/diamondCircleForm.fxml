@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="706.0" prefWidth="755.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Button fx:id="startSimulationButton" layoutX="577.0" layoutY="28.0" mnemonicParsing="false" onMouseClicked="#startSimulation" prefHeight="35.0" prefWidth="128.0" text="Pokreni">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <Label layoutX="284.0" layoutY="22.0" prefHeight="30.0" prefWidth="179.0" text="DiamondCircle" textFill="#f70000">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="69.0" layoutY="20.0" prefHeight="20.0" prefWidth="172.0" text="Trenutni broj odigranih igara" />
+      <TextField fx:id="numberTextField" alignment="CENTER" editable="false" layoutX="134.0" layoutY="52.0" prefHeight="26.0" prefWidth="42.0" />
+      <Line endX="564.0000610351562" endY="0.1999969482421875" layoutX="183.0" layoutY="87.0" startX="-183.00001525878906" startY="0.1999969482421875" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="517.0" layoutX="15.0" layoutY="177.0" stroke="BLACK" strokeType="INSIDE" width="144.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="141.0" layoutX="181.0" layoutY="551.0" stroke="BLACK" strokeType="INSIDE" width="377.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="259.0" layoutX="577.0" layoutY="176.0" stroke="BLACK" strokeType="INSIDE" width="156.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="141.0" layoutX="577.0" layoutY="551.0" stroke="BLACK" strokeType="INSIDE" width="156.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="45.0" layoutX="15.0" layoutY="106.0" stroke="BLACK" strokeType="INSIDE" width="718.0" />
+      <Label alignment="CENTER" layoutX="600.0" layoutY="186.0" prefHeight="26.0" prefWidth="119.0" text="Trenutna karta" textAlignment="CENTER">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <ImageView fx:id="cardImageView" fitHeight="181.0" fitWidth="134.0" layoutX="588.0" layoutY="239.0" pickOnBounds="true" preserveRatio="true" />
+      <TextField fx:id="timeTextField" alignment="CENTER" editable="false" layoutX="576.0" layoutY="497.0" prefHeight="30.0" prefWidth="156.0">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="name1TextField" alignment="CENTER" editable="false" layoutX="141.0" layoutY="117.0" prefHeight="26.0" prefWidth="99.0" />
+      <TextField fx:id="name2TextField" alignment="CENTER" editable="false" layoutX="256.0" layoutY="116.0" prefHeight="26.0" prefWidth="99.0" />
+      <TextField fx:id="name3TextField" alignment="CENTER" editable="false" layoutX="367.0" layoutY="116.0" prefHeight="26.0" prefWidth="99.0" />
+      <TextField fx:id="name4TextField" alignment="CENTER" editable="false" layoutX="481.0" layoutY="117.0" prefHeight="26.0" prefWidth="99.0" />
+      <StackPane fx:id="diamondStackPane" layoutX="192.0" layoutY="178.0" prefHeight="350.0" prefWidth="350.0" />
+      <Button fx:id="resultsButton" alignment="CENTER" layoutX="583.0" layoutY="590.0" lineSpacing="3.0" mnemonicParsing="false" onMouseClicked="#showResultsForm" prefHeight="63.0" prefWidth="144.0" text="Prikaz liste fajlova&#10;sa rezultatima" />
+      <VBox fx:id="figuresVBox" layoutX="15.0" layoutY="176.0" />
+      <ListView fx:id="figuresListView" layoutX="21.0" layoutY="178.0" prefHeight="509.0" prefWidth="134.0" />
+      <Label layoutX="214.0" layoutY="570.0" prefHeight="18.0" prefWidth="328.0" text="Opis znacenja karte:">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <TextArea fx:id="messageTextArea" layoutX="206.0" layoutY="600.0" prefHeight="87.0" prefWidth="328.0" wrapText="true">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </TextArea>
+      <Label layoutX="577.0" layoutY="446.0" prefHeight="30.0" prefWidth="156.0" text="Vrijeme trajanja igre:">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
